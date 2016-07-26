@@ -1,0 +1,104 @@
+.btn-demo{
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;;
+  margin-top: 9px !important;;
+  color: #FFF !important;;
+  :hover{
+    color: #232735;
+  }
+}
+
+
+
+h3Biin{
+  font-family: @headings-font-family;
+  font-weight: @headings-font-weight;
+  line-height: @headings-line-height;
+  font-size: 30px;
+  color: @headings-color;
+  margin-bottom: 0.5px;
+}
+
+.fa-lg{
+  font-size: 2em;
+}
+
+#contact{
+  color: #FFF;
+  .btn-theme{
+    background: @strong-color;
+  }
+  h5 {
+    color: #fff;
+    font-size: 25px;
+    @media @upto-mobile {
+      font-size: 15px;
+    }
+    @media @upto-tablet {
+      font-size: 20px;
+    }
+  }
+}
+
+#features{
+  h2{
+    color: black;
+    font-weight: 300;
+  }
+  strong{
+    color: @strong-color;
+    font-weight: 700;
+  }
+}
+
+#desc1{
+  strong {
+    color: @brand-info;
+  }
+}
+
+.light-gray-background{
+  background-color: @gray-much-lighter;
+}
+
+#shots{
+  background-color: @gray;
+
+  strong{
+    color : @strong-color;
+  }
+}
+
+#header{
+  h1{
+    font-weight: 300;
+  }
+  .intro-section{
+
+  }
+  .btn-theme{
+    background: @strong-color;
+    border-radius: 4px;
+    color: #fff;
+    &:hover, &:focus, &:active {
+      background-color: darken(@strong-color, 8%);
+      color: #fff;
+    }
+  }
+}
+
+.background-size(@type) {
+  -webkit-background-size: @type;
+  background-size: @type;
+}
+
+#featuresdescription {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+#download{
+  color: #000;
+  background-color: @gray-much-lighter;
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Biin",
+  "version": "1.0.3",
+  "homepage": "https://github.com/estebanpadilla/BiinCMS",
+  "authors": [
+    "Ivan Andres Salazar Solano <isalazar@biin.io>"
+  ],
+  "description": "Biin",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}

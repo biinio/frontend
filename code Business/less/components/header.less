@@ -1,0 +1,97 @@
+/* ========================================================================
+   Component: Header
+ ========================================================================== */
+ 
+
+header {
+  color: #fff;
+  overflow: hidden;
+  /* Background image fallback */
+  text-align: center;
+  background: url('../img/bg-main1.jpg') no-repeat center bottom;
+  .background-size(cover);
+
+  /* INTRO */
+
+  .intro-section {
+    margin: 0 auto;
+    
+    @media @mobile {
+      padding-top: 1%;
+    }
+    @media @tablet {
+      padding-top: 1%;
+    }
+    @media @ipad-landscape {
+      padding-top: 20px;
+    }
+    
+    .intro {
+      color: #fff;
+      margin-bottom: 36px;
+      margin-top: 0;
+    }
+    
+    h5 {
+      color: #fff;
+      font-size: 25px;
+      @media @upto-mobile {
+        font-size: 15px;
+      }
+      @media @upto-tablet {
+        font-size: 20px;
+      }
+    }
+
+    .btn-theme {
+      margin-top: 30px;
+    }
+  }
+  
+  .top-logo {
+    padding-top: 20px;
+    text-align: center;
+    height: 70px;
+    margin: 0 auto;
+    > img {
+      display: inline-block;
+      max-height: 100%;
+      width: auto;
+    }
+    @media @tablet {
+      height: auto;
+      padding-top: 60px;
+    }
+    @media @ipad-landscape {
+      padding-bottom: 20px;
+    }
+    @media @desktop{
+      height: auto;
+      padding-top: 60px;
+    }
+    @media @desktop-lg{
+      height: auto;
+      padding-top: 5%;
+    }
+
+  }
+
+  .full-screen {
+    width: 100%;
+    min-height: 100vh;
+  }
+  .request-demo-field{
+    @media @upto-tablet {
+      padding-top: 4px;
+    }
+  }
+  .request-demo-button {
+    padding-top: 20px;
+  }
+}
+
+
+.background-size(@type) {
+  -webkit-background-size: @type;
+          background-size: @type;
+}

@@ -1,0 +1,54 @@
+// START HEADER
+header#header.header.novideo
+  .full-screen
+    // START STICKY NAVBAR
+    .navbar.navbar-default.navbar-fixed-top.navbar-sticky
+      .container
+        .navbar-header
+          button.navbar-toggle(type='button', data-toggle='collapse', data-target='#navbar-main')
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand(href='#')
+            img(src='img/logo-dark.png', alt='')
+        // MENU
+        #navbar-main.navbar-collapse.collapse
+          ul.nav.navbar-nav.navbar-right.main-navbar
+            li
+              a(href='#header') Inicio
+            li
+              a(href='#features') Caracteristicas
+            li
+              a.btn.btn-sm.btn-theme.btn-demo(href='#contact')
+                | Solicitar Prueba Gratuita
+    // END STICKY NAVBAR
+    .container
+      // MAIN LOGO
+      .top-logo
+        img(src='img/logo@2x.png', alt='')
+      .row.info-bottom
+        .col-lg-10.col-lg-offset-1.col-md-10.col-md-offset-1
+          // INTRO MESSAGE
+          .intro-section
+            h1.intro Conéctese con sus clientes en su móvil durante toda la experiencia de compra.
+            h5 Empiece ya con un mes&nbsp;
+              strong gratis&nbsp;
+              | incluyendo la instalación.
+          form.row#headerform
+            .col-md-3.request-demo-field
+              input.input-lg.form-control#nameInputHeader(name="nameInputHeader" placeholder="Nombre" minlenght="2" maxlength="100" required)
+            .col-md-3.request-demo-field
+              input.input-lg.form-control#emailInputHeader(name="emailInputHeader" placeholder="Correo Electronico" minlenght="5" maxlength="100" type="email" required)
+            .col-md-3.request-demo-field
+              input.input-lg.form-control#phoneInputHeader(name="phoneInputHeader" placeholder="Telefono" type='phoneCR'  required)
+            .col-md-3.request-demo-field
+              input.input-lg.form-control#companyInputHeader(name="companyInputHeader" placeholder="Compañia" maxlength="100" required)
+          .row.text-center.request-demo-button
+            a#headerDemoButton.btn.btn-lg.btn-theme
+              | Solicitar Prueba Gratuita
+          .row
+            h5 Para conocer más sobre la plataforma Biin llame al&nbsp;
+              strong +506 8706-6660
+// END HEADER
+

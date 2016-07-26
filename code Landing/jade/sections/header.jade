@@ -1,0 +1,43 @@
+// START HEADER
+header#header.header.novideo
+  .full-screen
+    // START STICKY NAVBAR
+    .navbar.navbar-default.navbar-fixed-top.navbar-sticky
+      .container
+        .navbar-header
+          button.navbar-toggle(type='button', data-toggle='collapse', data-target='#navbar-main')
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand(href='#')
+            img(src='img/logo-dark.png', alt='')
+        // MENU
+        #navbar-main.navbar-collapse.collapse
+          ul.nav.navbar-nav.navbar-right.main-navbar
+            li
+              a(href='#header') Inicio
+            li
+              a(href='#features') Características
+            li
+              a(href='#contact') Contacto
+    // END STICKY NAVBAR
+    .container
+      // MAIN LOGO
+      .top-logo
+        img(src='img/logo@2x.png', alt='')
+      .row
+        .col-lg-8.col-lg-offset-2.col-md-10.col-md-offset-1
+          // INTRO MESSAGE
+          .intro-section
+            h1.intro LO MEJOR DE LOS LUGARES QUE TE GUSTAN
+            h5 Encuentra las ofertas, productos y beneficios de las mejores tiendas y restaurantes.
+            // DEMO BUTTON
+            //- a.btn.btn-lg.btn-theme.scrollto(href='#download')
+            .row.text-center
+              a(href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=971157984&mt=8')
+                img(src='img/appStore.png')
+              a(href='')
+                img(src='img/googlePlay2.png')
+// END HEADER
+
